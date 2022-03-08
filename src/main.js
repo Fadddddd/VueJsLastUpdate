@@ -6,11 +6,11 @@ import App from './App.vue'
 const store = createStore({
   state() {
     return {
-      pseudo: "",
-      password: "",
-      nomFormation: "",
-      dateDebutFormation: "",
-      dateFinFormation:""
+      pseudo: "plop",
+      password: "plop",
+      nomFormation: "plop",
+      dateDebutFormation: "plop",
+      dateFinFormation:"plop"
     }
   },
   mutations: {
@@ -45,4 +45,4 @@ app.mount("#app")
 
 
 // Différence entre js et php --> Asynchrone 
-// Js lance l'ensemble u code d'un coup et PHP le lit dans l'ordre d'écriture.
+// Js lance l'ensemble du code d'un coup et PHP le lit dans l'ordre d'écriture.

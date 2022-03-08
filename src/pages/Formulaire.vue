@@ -12,7 +12,7 @@
       <p>Date de fin</p>
       <input v-model="formationTabsNews.dateFinFormation" />
       <br>
-      <button @click="saveFormation()">Enregistrer</button> <!-- saveFormation est la fonction qui va enregistrer les donnees -->
+      <button @click="saveFormation()">Enregistrer</button> <!-- saveFormation est la fonction qui va enregistrer les données -->
     </div>
     <table>
       <thead>
@@ -53,17 +53,17 @@
 
             this.formationTabs.push(this.formation);
 
-    },
-  },
+    }
+  }
 }
-import {createStore} from 'vuex'
+/* import {createStore} from 'vuex'
 
 export default createStore ({
   state: {
     formationTabsNews :""
   }
 
-})
+})  */
 </script>
 <style>
 </style>

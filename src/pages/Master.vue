@@ -3,9 +3,7 @@
 
     <h2> {{ pseudo }} !</h2>
     <h2> {{ password }} !</h2>
-    <h2> {{nomFormation}} !</h2>
-    <h2> {{dateDebutFormation}} !!</h2>
-    <h2> {{dateFinFormation}}</h2>
+    <h2> {{nomFormation}}!!</h2>
 
   </div>
 

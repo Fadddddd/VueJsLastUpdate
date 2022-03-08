@@ -15,8 +15,8 @@
     <Connexion v-if="pageMenu == 'connexion'"/>
     <Rendu v-if="pageMenu=='Rendu'"/>
     <Footer />
-  </div>
 
+  </div>
 </template>
 
 <script>
@@ -50,13 +50,13 @@ export default {
       plop :""
     }
   },
-state() {
+/* state() {
     return {
       nomFormation,
       dateDebutFormation,
       dateFinFormation
     }
-  },
+  }, */
   //Ecoute les valeurs qui changent
   computed: {
     ...mapState(["pseudo"]),
@@ -81,7 +81,17 @@ state() {
     },
     nomFormation: function(nouvelleFormation){
       if(nouvelleFormation!=""){
-        this.nomFormation = this.nomFormation
+        this.nomFormation = nomFormation
+      }
+    },
+    dateDebutFormation : function (nouvelledateDebutFormation){
+      if(nouvelledateDebutFormation!=""){
+        this.dateDebutFormation = dateDebutFormation
+      }
+    },
+    dateFinFormation : function (nouvelledateFinFormation){
+      if(nouvelledateFinFormation!=""){
+        this.dateFinFormation = dateFinFormation
       }
     }
   }
